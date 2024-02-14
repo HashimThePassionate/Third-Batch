@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+
+<body>
+    <h1>Simple HTML Table</h1>
+    <hr>
+    <table border="1">
+        <tr>
+            <td>Roll No</td>
+            <td>Name</td>
+            <td>Course</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Salman</td>
+            <td>Python</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Hamza</td>
+            <td>Python</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Zeeshan</td>
+            <td>Python</td>
+        </tr>
+    </table>
+    <h1>HTML friendly Table</h1>
+    <hr>
+    <table border="1" style="border-collapse: collapse;">
+        <caption><b>Student Course</b></caption>
+        <colgroup>
+            <col span="3" style="background-color: antiquewhite;" />
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th>Roll No</th>
+                <th>Name</th>
+                <th>Course</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Salman</td>
+                <td>Python</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Hamza</td>
+                <td>Python</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Zeeshan</td>
+                <td>Python</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th>4 Months</th>
+            <th>Course</th>
+            <th>Python</th>
+        </tfoot>
+    </table>
+    <h1>Col span and Row Span</h1>
+    <hr>
+    <table border="1" style="border-collapse: collapse;">
+        <thead>
+            <tr>
+                <th colspan="2">Name</th>
+                <th>Course</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">One</td>
+                <td>Salman</td>
+                <td>Python</td>
+            </tr>
+            <tr>
+                <!-- <td>2</td> -->
+                <td>Hamza</td>
+                <td>Python</td>
+            </tr>
+            <tr>
+                <td>Two</td>
+                <td>Zeeshan</td>
+                <td>Python</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="3">Python Programming</th>
+            <!-- <th>Course</th>
+            <th>Python</th> -->
+        </tfoot>
+    </table>
+</body>
+
+</html>
