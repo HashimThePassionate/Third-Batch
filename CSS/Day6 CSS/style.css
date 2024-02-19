@@ -1,0 +1,60 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+h2 {
+    background-color: blueviolet;
+    color: white;
+}
+
+h1 {
+    background-color: gray;
+    color: yellow;
+}
+
+.para {
+    text-align: justify;
+    background-color: antiquewhite;
+    color: rgb(32, 36, 34);
+}
+
+#para1 {
+    background-color: rgb(231, 164, 164);
+    color: brown;
+}
+
+#para2 {
+    background-color: rgb(141, 110, 240);
+    color: white;
+    text-indent: 10px;
+    letter-spacing: 0.5PX;
+    line-height: 20PX;
+    word-spacing: 5PX;
+
+
+}
+
+p.p {
+    background-color: darkgreen;
+    color: aqua;
+}
+
+p {
+    background-color: rgb(5, 5, 5);
+    color: white;
+    text-align: justify;
+    text-align-last: justify;
+}
+
+.a {
+    color: green;
+    font-size: 25px;
+    text-decoration-line: underline;
+    text-decoration-color: chocolate;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 5px;
+    text-decoration: underline dotted 5px green;
+    text-shadow: 5PX 10PX 15PX GRAY;
+    /* text-decoration:none; */
+}
