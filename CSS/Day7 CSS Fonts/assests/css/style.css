@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: dodgerblue;
+}
+
+.fonts {
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 20px;
+    font-family: "Micro 5", sans-serif;
+}
+
+.div1 {
+    border: 5px solid white;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+
+}
+
+.div2 {
+    border: 5px solid orange;
+    padding: 20px;
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+}
