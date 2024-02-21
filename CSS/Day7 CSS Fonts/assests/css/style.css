@@ -11,10 +11,10 @@ body {
 .fonts {
     color: white;
     text-align: center;
-    font-weight: 600;
+    font-weight: 900;
     font-style: italic;
     font-size: 20px;
-    font-family: "Micro 5", sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .div1 {
@@ -32,4 +32,14 @@ body {
     width: 150px;
     height: 50px;
     margin: 20px;
+}
+.font1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+}
+.font2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
 }
