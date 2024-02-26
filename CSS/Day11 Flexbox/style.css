@@ -1,0 +1,70 @@
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: dodgerblue;
+    padding: 20px;
+    font-size: 40px;
+    height: 50vh;
+    display: flex;
+    /* flex-direction:row; */
+    justify-content: center;
+    /* flex-wrap:wrap; */
+    flex-flow: row wrap;
+    gap: 10px;
+    align-items: start;
+    /* align-items: baseline; */
+    /* align-content: space-evenly; */
+}
+
+.item {
+    font-size: 25px;
+    background-color: rgb(191, 231, 244);
+    /* margin: 10px; */
+    padding: 20px;
+}
+
+.item1 {
+    font-size: 100%;
+    /* font-size: 40px; */
+    font-weight: 900;
+    /* flex-grow: 1; */
+    /* flex-grow: 2; */
+    /* flex-basis: 50%; */
+    /* flex-basis:  calc( 50% - 5px ); */
+    /* flex-grow: 2; */
+}
+
+.item2 {
+    /* font-size: 40px; */
+    font-weight: 900;
+    font-size: 100%;
+    /* flex-basis: 50%; */
+    /* flex-basis:  calc( 50% - 5px ); */
+    /* flex-grow: 2; */
+
+
+    /* flex-grow: 4;
+     */
+    /* flex-basis: 200px;
+    flex-shrink: 5; */
+    /* flex-grow: 2; */
+    align-self: center;
+}
+
+.item3 {
+    font-size: 40px;
+    font-weight: 900;
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+}
+
+/* .item1{
+    font-size: 5cqw;
+    font-weight: 900;
+} */
